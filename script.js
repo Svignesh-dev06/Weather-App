@@ -15,6 +15,7 @@
             const data = await response.json()
 
             console.log(data)
+            
 
             if (city === "") {
                 alert("Please enter a city name")
