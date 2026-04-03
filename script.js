@@ -15,7 +15,7 @@
             const data = await response.json()
 
             console.log(data)
-            
+
 
             if (city === "") {
                 alert("Please enter a city name")
@@ -36,6 +36,8 @@
             document.getElementById("wind-show").textContent = "Wind: " + data.wind.speed + " km/h"
 
             document.getElementById("icon-show").src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
+
+           
 
         }
 
